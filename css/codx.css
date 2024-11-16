@@ -13,8 +13,9 @@ body {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px; /* Для мобильных устройств */
 }
 
 
@@ -31,7 +32,7 @@ header a {
     display: flex;
     align-items: center;
     border-radius: 30px;
-    box-sizing: 10px;
+    border: 1px solid #FFFFFF;
     box-shadow: 0px -2px 1px 1px rgba(0, 0, 0, 0.1);
     height: 68px;
 }
@@ -73,7 +74,7 @@ header a {
     padding: 11px;
     margin-left: 25px;
     border-radius: 20px;
-    box-sizing: 20px solid #2F2F2F;
+    border: 1px solid #2F2F2F;
     box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.4);
     margin-bottom: 5px; 
 }
@@ -264,23 +265,22 @@ article {
     margin-top: 64px;
     text-align: center;
     padding-top: 5px;
-    border-radius: 30px;
 }
 
 
 .post-text-number1 {    
     background-color: #82CBAC;
-    box-sizing: 10px solid #82CBAC;
+    border: 1px solid #82CBAC;
 }
 
 .post-text-number2 {
     background-color: #FF7F96;
-    box-sizing: 10px solid #FF7F96;
+    border: 1px  solid #FF7F96;
 }
 
 .post-text-number3 {
     background-color: #EAD71B;
-    box-sizing: 10px solid #EAD71B;
+    border: 1px solid #EAD71B;
 }
 
 .post-text-title {  
@@ -426,11 +426,9 @@ article {
     margin-top: 15px;
 }
 
-.footer-subTitleL, .footer-subTitleR {
+.footer-subTitle{
     font-size: 15px;
     margin-bottom: 8px; 
-    font-size: 15px;
-    margin-bottom: 8px;
 }
 
 .subscribe {
@@ -489,7 +487,6 @@ article {
     position: absolute;
     width: 17px;
     height: 17px;
-
     margin-top: 41px;
     margin-left: 1070px;
 
@@ -501,7 +498,6 @@ article {
 }
 
 .arrowR {
-
     border-right: 2px solid #79AF98; /* Права сторона прозора */
     transform: rotate(45deg); /* Повертаємо для створення стрілки */
 }
