@@ -15,7 +15,6 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
-
 }
 
 
@@ -35,7 +34,6 @@ header a {
     box-sizing: 10px;
     box-shadow: 0px -2px 1px 1px rgba(0, 0, 0, 0.1);
     height: 68px;
-
 }
 
 .logo {
@@ -77,8 +75,7 @@ header a {
     border-radius: 20px;
     box-sizing: 20px solid #2F2F2F;
     box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.4);
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px; 
 }
 
 .menu {
@@ -101,7 +98,6 @@ header a {
     font-size: 64px;
     margin-top: -20px;
     font-weight: normal;
-
 }
 
 .offer-subTitle {
@@ -184,11 +180,6 @@ header a {
     padding-top: 5px;
 }
 
-..button-name a::before {
-    background-color: #2F2F2F;
-    color: #FFFFFF;
-M7}
-
 .card-title {
     display: flex;
     margin-top: 84px;
@@ -197,7 +188,6 @@ M7}
 .name-professional {
     color: #FF7F96;
     font-size: 16px;
-
 }
 
 .name-title {
@@ -227,25 +217,24 @@ article {
     padding-left: 48px;
 }
 
+.article-title, .article-subtitle1, .article-subtitle2, .post-text-title, .post-text-subTitle {
+    color: #2F2F2F;
+    font-weight: 400;
+}
+
 .article-title {
     font-size: 35px;
-    font-weight: normal;
-    color: #2F2F2F;
 }
 
 .article-subtitle1 {
     font-size: 48px;
     margin-top: -40px;
-    font-weight: 400;
-    color: #2F2F2F;
 }
 
 .article-subtitle2 {
     font-size: 18px;
-    color: #2F2F2F;
     margin-top: -20px;
     margin-bottom: 50px;
-    width: 545px;
 }
 
 .article-button {
@@ -256,7 +245,6 @@ article {
     color: #FFFFFF;
     margin-left: 390px;
     padding: 14px 40px;
-
 }
 
 .post {
@@ -267,64 +255,51 @@ article {
     margin-bottom: 32px;
 }
 
-.post-text-number1 {
+.post-text-number1, .post-text-number2, .post-text-number3 {
     font-size: 16px;
     color: #FFFFFF;
     width: 50px;
     height: 30px;
-    background-color: #82CBAC;
     border-radius: 30px;
-    box-sizing: 10px solid #82CBAC;
     margin-top: 64px;
     text-align: center;
     padding-top: 5px;
+    border-radius: 30px;
+}
+
+
+.post-text-number1 {    
+    background-color: #82CBAC;
+    box-sizing: 10px solid #82CBAC;
 }
 
 .post-text-number2 {
-    font-size: 16px;
-    color: #FFFFFF;
-    width: 50px;
-    height: 30px;
     background-color: #FF7F96;
-    border-radius: 30px;
     box-sizing: 10px solid #FF7F96;
-    margin-top: 32px;
-    text-align: center;
-    padding-top: 5px;
 }
 
 .post-text-number3 {
-    font-size: 16px;
-    color: #FFFFFF;
-    width: 50px;
-    height: 30px;
     background-color: #EAD71B;
-    border-radius: 30px;
     box-sizing: 10px solid #EAD71B;
-    margin-top: 32px;
-    text-align: center;
-    padding-top: 5px;
 }
 
-.post-text-title {
+.post-text-title {  
     font-size: 35px;
-    color: #2F2F2F;
     margin-top: -18px;
     font-weight: bold;
 }
 
 .post-text-subTitle {
     font-size: 18px;
-    color: #2F2F2F;
     margin-top: -30px;
 }
 
 .post-image {
     margin-left: 153px;
-
 }
 
 .imgUnder-post {
+    margin-top: 150px;
     width: 100%;
 }
 
@@ -340,10 +315,10 @@ article {
     text-align: center;
 }
 
-.gallery-collection-img {
+.gallery-collection-img, .gallery1-nft, .gallery2-nft {
     display: flex;
-
 }
+
 .gallery-collection-img a {
     margin-top: 56px;
     margin-right: 63px;
@@ -360,7 +335,6 @@ article {
     margin-left: 533px;
     text-align: center;
     padding-top: 8px;
-
 }
 
 .gallery-collection-button a {
@@ -380,24 +354,10 @@ article {
 
 }
 
-.gallery1-nft {
-    display: flex;
-}
-
-.gallery1-nft img {
+.gallery1-nft img,.gallery2-nft img {
     margin-left: 38px;
     margin-bottom: 32px;
 }
-
-.gallery2-nft {
-    display: flex;
-}
-
-.gallery2-nft img {
-    margin-left: 38px;
-    margin-bottom: 32px;
-}
-
     
 .gallery-nft-button {
     width: 134px;
@@ -449,66 +409,47 @@ article {
 .social-network ul {
     display: flex;
     padding: 0 0;
-
-
 }
 
 .social-network a{
     margin-right: 19px;
-
 }
 
-.footer-textL {
+.footer-textL, .footer-textR {
     margin-left: 72px;
-
 }
 
-.footer-titleL {
+.footer-titleL, .footer-titleR {
     font-size: 20px;
     color: #2F2F2F;
     margin-bottom: 25px;
     margin-top: 15px;
 }
 
-.footer-subTitleL {
+.footer-subTitleL, .footer-subTitleR {
     font-size: 15px;
-    margin-bottom: 8px;
-}
-
-.footer-textR {
-    margin-left: 72px;
-}
-
-.footer-titleR {
-    font-size: 20px;
-    color: #2F2F2F;
-    margin-bottom: 25px;
-    margin-top: 15px;
-}
-
-.footer-subTitleR {
+    margin-bottom: 8px; 
     font-size: 15px;
     margin-bottom: 8px;
 }
 
 .subscribe {
     margin-left: 91px;
-
 }
 
-.subscribe-title {
-    font-size: 35px;
+.subscribe-title, .subscribe-subTitle {
     color: #2F2F2F;
     margin-bottom: 16px;
+
+}
+.subscribe-title {
+    font-size: 35px;
     margin-top: 0;
 }
 
 .subscribe-subTitle {
     font-size: 18px;
-    color: #2F2F2F;
-    margin-bottom: 16px;
 }
-
 
 .form-subscribe {
     display: flex;
@@ -544,24 +485,23 @@ article {
     display: flex;
 }
 
-.arrowL {
+.arrowL, .arrowR {
     position: absolute;
     width: 17px;
     height: 17px;
-    border-left: 2px solid #79AF98; /* Ліва сторона прозора */
-    transform: rotate(-45deg); /* Повертаємо для створення стрілки */
+
     margin-top: 41px;
     margin-left: 1070px;
 
 }
 
+.arrowL {
+    border-left: 2px solid #79AF98; /* Ліва сторона прозора */
+    transform: rotate(-45deg); /* Повертаємо для створення стрілки */
+}
+
 .arrowR {
-    position: absolute;
-    width: 17px;
-    height: 17px;
+
     border-right: 2px solid #79AF98; /* Права сторона прозора */
     transform: rotate(45deg); /* Повертаємо для створення стрілки */
-    margin-top: 41px;
-    margin-left: 1070px;
-
 }
